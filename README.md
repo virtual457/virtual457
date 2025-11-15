@@ -1,16 +1,17 @@
-## Hi there 👋
-
-<!--
-**virtual457/virtual457** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Chandan Gowda K S
+   
+   **Senior Software Engineer @ LSEG | MS CS @ Northeastern (3.89 GPA)**
+   
+   Building distributed systems and cloud-native infrastructure. 4+ years production experience processing 7.5M+ records across 180 countries.
+   
+   🔧 **Tech Stack:** Python, Java, Go | AWS (Lambda, SQS, API Gateway) | Kubernetes, Docker
+   
+   🎯 **Currently:** Seeking Summer 2026 Software Engineering Co-op
+   
+   📫 **Contact:** chandan.keelara@gmail.com | [LinkedIn](your-link)
+   
+   ## Featured Projects
+   - 🚀 [Orion PaaS](link) - Kubernetes Operator in Go
+   - ⚓ [Maritime Logistics](link) - Django + Dijkstra SQL optimization
+   - 🦖 [Deep RL Agent](link) - DDQN with 1.5M parameters
+   - 📅 [Calendly](link) - Enterprise Java with 6 design patterns

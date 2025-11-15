@@ -38,15 +38,15 @@ Currently pursuing **MS in Computer Science at Northeastern University (3.89 GPA
 
 ## 🚀 Featured Projects
 
-### [Orion Platform](https://github.com/virtual457/Orion-platform) | Go • Kubernetes • Operator SDK
-Cloud-native Platform-as-a-Service with custom Kubernetes operator enabling single-command application deployment across multiple environments. Features automated resource provisioning, environment-aware infrastructure selection (local containers vs cloud services), health monitoring, and production-grade lifecycle management. **1.5K+ lines of Go code** demonstrating advanced Kubernetes controller patterns, CRDs, and infrastructure-as-code practices.
-
-**Tech Stack:** Go 1.21+, Kubernetes, Docker, Custom Resource Definitions, controller-runtime
-
 ### [Dino Game Deep RL Agent](https://github.com/virtual457/dino-game-AI) | Python • PyTorch • Computer Vision
 Autonomous AI agent using Double Deep Q-Network (DDQN) with ResNet architecture (**1.5M parameters**) that learns to play Chrome's Dino game through deep reinforcement learning. Engineered automated training pipeline with balanced experience replay, 4-frame stacking for temporal information, and real-time decision-making at **16.67 FPS**. Demonstrates ML systems engineering with **7.6 training steps/second** performance and optimized memory usage.
 
 **Tech Stack:** PyTorch, OpenCV, NumPy, MSS (screen capture), ResNet architecture
+
+### [Orion Platform](https://github.com/virtual457/Orion-platform) | Go • Kubernetes • Operator SDK
+Cloud-native Platform-as-a-Service with custom Kubernetes operator enabling single-command application deployment across multiple environments. Features automated resource provisioning, environment-aware infrastructure selection (local containers vs cloud services), health monitoring, and production-grade lifecycle management. **1.5K+ lines of Go code** demonstrating advanced Kubernetes controller patterns, CRDs, and infrastructure-as-code practices.
+
+**Tech Stack:** Go 1.21+, Kubernetes, Docker, Custom Resource Definitions, controller-runtime
 
 ### [Calendly Calendar System](https://github.com/virtual457/Calendly) | Java • Design Patterns • TDD
 Enterprise-grade calendar application implementing **6+ design patterns** (Command, Factory, Adapter, Builder, Observer, Strategy) with strict SOLID principles adherence. Achieved **98% line coverage** and **95% mutation coverage** through comprehensive test-driven development across **31 test classes** and **52 source files**. Features multi-interface support (GUI, Console, Headless), timezone handling, CSV import/export, and production-ready error handling.
@@ -93,7 +93,6 @@ CGPA: 8.76/10
 ## 💡 What I'm Currently Learning
 
 - Advanced distributed systems patterns and consensus algorithms
-- Kubernetes operator development and custom controllers
 - Deep learning model optimization and deployment
 - Cloud-native architecture and serverless design patterns
 
@@ -101,7 +100,3 @@ CGPA: 8.76/10
 
 **🎯 Available for Spring/Summer 2026 co-op opportunities from January through August 2026 (8-month commitment available). Flexible start date. Open to backend engineering, cloud infrastructure, distributed systems, ML engineering, and data engineering roles.**
 
-*Participating in Northeastern University's #1-ranked Cooperative Education Program with final year of coursework remaining post-placement.*
-```
-
----

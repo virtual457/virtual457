@@ -32,7 +32,6 @@ Previously worked as a **Software Engineer at London Stock Exchange Group** (202
 - Architected AWS serverless pipelines with **40% latency reduction** and **99.9% uptime**
 - Optimized distributed data processing achieving **40 records/second** throughput
 - Developed scalable microservices in Python and Java with AWS Lambda, SQS, and API Gateway
-- Reduced system interventions by **50%** through automated service discovery and orchestration
 
 Currently pursuing **MS in Computer Science at Northeastern University (3.89 GPA)** to deepen expertise in distributed systems, cloud-native architectures, and advanced algorithms before completing my final year of coursework in 2027.
 

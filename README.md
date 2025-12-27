@@ -98,5 +98,3 @@ CGPA: 8.76/10
 
 ---
 
-**🎯 Available for Spring/Summer 2026 co-op opportunities from January through August 2026 (8-month commitment available). Flexible start date. Open to AI/ML engineering, backend engineering, cloud infrastructure, distributed systems, full-stack development, platform engineering, and data engineering roles.**
-

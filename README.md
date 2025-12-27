@@ -1,15 +1,9 @@
 # Hi, I'm Chandan 👋
 
-**MS Computer Science @ Northeastern University (3.89 GPA) | Seeking Spring/Summer 2026 Co-op**
+**MS Computer Science @ Northeastern University (3.93 GPA) | Seeking Summer 2026 Co-op**
 
 I'm a graduate student passionate about AI/ML systems, cloud infrastructure, and building scalable software. With 4 years of production engineering experience from LSEG and Infosys, plus hands-on projects in deep reinforcement learning, multi-agent RAG systems, Kubernetes operators, and full-stack development, I bring enterprise expertise while actively pushing boundaries with cutting-edge technologies.
 
-## 🎯 What I'm Looking For
-
-- **Spring/Summer 2026 Software Engineering Co-op** (January - August 2026, 8-month commitment available)
-- Flexible start date between January and May 2026
-- Focus areas: AI/ML engineering, backend systems, cloud infrastructure, distributed systems, full-stack development
-- Open to: Platform engineering, data engineering, DevOps, and LLM engineering roles
 
 ## 🔧 Technical Skills
 
@@ -27,17 +21,7 @@ I'm a graduate student passionate about AI/ML systems, cloud infrastructure, and
 
 **DevOps & Tools:** Git • CI/CD Pipelines • Linux/Unix • Maven/Gradle • Agile/Scrum
 
-## 💼 Experience Highlights
 
-Previously worked as a **Software Engineer at London Stock Exchange Group** (2022-2024) and **Infosys** (2020-2022), where I:
-- Built event-driven systems processing **7.5M+ compliance records daily** across **180+ countries**
-- Architected AWS serverless pipelines with **40% latency reduction** and **99.9% data integrity**
-- Optimized distributed data processing achieving **40 records/second** throughput
-- Developed scalable microservices in Python and Java with AWS Lambda, SQS, and API Gateway
-- Engineered high-throughput data pipelines achieving **3X throughput improvement**
-- Reduced manual system interventions by **50%** through microservices automation
-
-Currently pursuing **MS in Computer Science at Northeastern University (3.89 GPA)** to deepen expertise in distributed systems, AI/ML systems, and cloud-native architectures.
 
 ## 🚀 Featured Projects
 

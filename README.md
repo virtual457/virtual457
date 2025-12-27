@@ -2,8 +2,7 @@
 
 **MS Computer Science @ Northeastern University (3.93 GPA) | Seeking Summer 2026 Co-op**
 
-I'm a graduate student passionate about AI/ML systems, cloud infrastructure, and building scalable software. With 4 years of production engineering experience from LSEG and Infosys, plus hands-on projects in deep reinforcement learning, multi-agent RAG systems, Kubernetes operators, and full-stack development, I bring enterprise expertise while actively pushing boundaries with cutting-edge technologies.
-
+MS CS student with production experience scaling systems to 7.5M+ records across 180+ countries at LSEG. Building cutting-edge AI projects including deep RL agents, multi-agent RAG systems, and cloud-native platforms while pursuing advanced studies in ML and distributed systems at Northeastern.
 
 ## 🔧 Technical Skills
 

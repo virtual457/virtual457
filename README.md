@@ -1,99 +1,73 @@
 # Hi, I'm Chandan 👋
 
-**MS Computer Science @ Northeastern University (3.93 GPA) | Seeking Summer 2026 Co-op**
+**MS Computer Science @ Northeastern University (3.95 GPA)**
 
-MS CS student with production experience scaling systems to 7.5M+ records across 180+ countries at LSEG. Building cutting-edge AI projects including deep RL agents, multi-agent RAG systems, and cloud-native platforms while pursuing advanced studies in ML and distributed systems at Northeastern.
+I build production systems and obsess over the deep, weird parts. Four years of backend / data engineering at LSEG and Infosys, now spending my time on deep RL, multi-agent LLM systems, and Bitcoin-native protocols at Northeastern.
 
 ## 🔧 Technical Skills
 
-**Languages:** Python • Java • Go • TypeScript • JavaScript • C# • C++
+**Languages:** Python • TypeScript • C++ • Go • Java • SQL • JavaScript • C#
 
-**AI/ML:** PyTorch • LangChain • RAG • ChromaDB (Vector DB) • TensorFlow • Deep Reinforcement Learning • Multi-Agent Systems • Semantic Search
+**AI/ML:** PyTorch • CUDA • Deep RL (SAC, DDQN) • Behavioral Cloning • Transformers • LangChain • RAG • Vector DBs (FAISS, ChromaDB) • Prompt Engineering • Evals • Multi-Agent Systems
 
-**Cloud & Infrastructure:** AWS (Lambda, SQS, API Gateway, CloudWatch, WAF) • Kubernetes • Docker • Terraform • Serverless Architecture
+**Backend:** REST APIs • FastAPI • Spring Boot • Node.js / Express • Microservices • Event-Driven Systems • Distributed Systems • Performance Profiling
 
-**Backend Development:** Microservices • Event-Driven Systems • REST APIs • Distributed Systems • Performance Optimization • FastAPI
+**Cloud & Infra:** AWS (Lambda, SQS, RDS, Bedrock, API Gateway) • Kubernetes • Docker • Terraform • CI/CD • Bitcoin Core / Bitcoin Script
 
-**Databases & Data:** MySQL • PostgreSQL • MongoDB • ChromaDB • Redis • SQLite • ETL Pipelines • Batch Processing • Query Optimization • Stored Procedures
+**Data:** PostgreSQL • MySQL • MongoDB • Redis • OpenSearch • Snowflake • ETL Pipelines • Query Optimization • Stored Procedures
 
-**Frameworks:** Spring Boot • Micronaut • Django • Flask • Next.js • React • Redux • Node.js • Express
+**Frontend:** Next.js 15 • React 19 • Redux Toolkit • Tailwind CSS
 
-**DevOps & Tools:** Git • CI/CD Pipelines • Linux/Unix • Maven/Gradle • Agile/Scrum
-
-
+**Dev Tools:** Cursor • Claude Code • Git • Linux • WandB
 
 ## 🚀 Featured Projects
 
-### [LMARO - Multi-Agent Resume Optimizer](https://github.com/virtual457/llm-multi-agent-resume-optimizer) | LangChain • RAG • ChromaDB • FastAPI
-Advanced AI resume optimization platform combining RAG (Retrieval-Augmented Generation) with LangChain ReAct framework for intelligent, context-aware resume generation. Features ChromaDB vector database with semantic search across comprehensive knowledge sources (GitHub repositories, work history, education, skills, projects), achieving 90+ quality scores through multi-agent system with thought-action-observation loops. Built full-stack ML platform with FastAPI backend (10 REST endpoints + WebSocket/SSE) and Next.js 15 frontend featuring real-time agent thinking display.
+### [Vector-Q Transformer SAC for Autonomous Racing](https://github.com/virtual457/transformer-based-autonomous-racing-agent) | PyTorch • CUDA • Deep RL
+A continuous-control RL agent that drives a real racing simulator at 25 Hz on a consumer GPU. Pre-trained on **159,255 self-collected human demonstration frames** via behavioral cloning, then fine-tuned with a novel Vector-Q SAC variant (per-channel critic heads + per-channel auto-tuned entropy across steer/throttle/brake). Pre-LN TransformerEncoder observation encoder with stratified replay buffer seeded by BC priors. 6.6M params, ~0.2 ms effective inference latency, 3× faster convergence than from-scratch RL.
 
-**Tech Stack:** Python, LangChain, ChromaDB, FastAPI, Next.js 15, React 19, Gemini AI, Vector Database, RAG, 768-dimensional embeddings
+**Tech Stack:** PyTorch, CUDA, SAC, TransformerEncoder, Behavioral Cloning, NVIDIA RTX 4060, WandB
 
-### [Dino Game Deep RL Agent](https://github.com/virtual457/dino-game-AI) | Python • PyTorch • Computer Vision
-Autonomous AI agent using Double Deep Q-Network (DDQN) with ResNet architecture (1.5M parameters) that learns to play Chrome's Dino game through deep reinforcement learning. Engineered automated training pipeline with balanced experience replay, 4-frame stacking for temporal information, and real-time decision-making at 16.67 FPS. Demonstrates ML systems engineering with 7.6 training steps/second performance and optimized memory usage.
+### [Dino Game Deep RL Agent](https://github.com/virtual457/dino-game-AI) | PyTorch • CUDA • DDQN
+Pixel-based RL agent that masters Chrome's Dino game from raw screen capture. Double DQN with ResNet CNN (1.5M params), 4-frame stacking for temporal context, balanced replay buffer. **10×–25× throughput gain** via mixed precision (`torch.cuda.amp`), CUDA streams for parallel ops, and tensor pre-conversion — transfer latency cut from 80 ms to 1 ms. Real-time inference at 16.67 FPS, 7.6 training steps/sec.
 
-**Tech Stack:** PyTorch, OpenCV, NumPy, MSS (screen capture), ResNet architecture, GPU-accelerated training
+**Tech Stack:** PyTorch, CUDA, OpenCV, MSS, ResNet, mixed precision, GPU optimization
 
-### [Orion Platform](https://github.com/virtual457/Orion-platform) | Go • Kubernetes • Operator SDK
-Cloud-native Platform-as-a-Service with custom Kubernetes operator in Go enabling single-command application deployment. Features automated resource provisioning, environment-aware infrastructure selection (local containers vs cloud services), health monitoring, and event-driven reconciliation loops. 1.5K+ lines of Go code demonstrating advanced Kubernetes controller patterns, Custom Resource Definitions, and infrastructure-as-code practices supporting 10+ concurrent deployments.
+### [LMARO — LLM Multi-Agent RAG Platform](https://github.com/virtual457/llm-multi-agent-resume-optimizer) | LangChain • RAG • FastAPI
+Full-stack platform with **dual LangChain ReAct agents** orchestrated over AWS Bedrock. Personal knowledge base ingested into 768-dim Titan Embeddings on OpenSearch with semantic retrieval. Six-round evaluation pipeline (3 LLM-as-judge scoring + 3 factuality verification rounds against source docs) drives iterative self-correction until outputs clear a 90+ quality threshold. Hallucination-free by construction: anything the agent can't ground gets dropped, not paraphrased.
 
-**Tech Stack:** Go 1.21+, Kubernetes, Docker, Operator SDK, Custom Resource Definitions, controller-runtime
+**Tech Stack:** Python, LangChain, AWS Bedrock, Titan Embeddings, OpenSearch, FastAPI, Next.js 15, MongoDB, SSE
 
-### [Kambaz Learning Management System](https://github.com/virtual457/kambaz-next-js) | Next.js 15 • React 19 • Node.js
-Production-grade LMS deployed live on Vercel and Render with Next.js/React frontend and Node.js/Express backend. Features Redux Toolkit for state management, MongoDB Atlas integration, server-side rendering, DAO pattern, and comprehensive testing (31 automated tests). Implements multi-interface system for course management, content delivery, user authentication, and administrative tools with type-safe TypeScript implementation.
+### [Composed Image Retrieval — VLM Benchmark](https://github.com/virtual457/composed-image-retrieval) | CLIP • FAISS • Quantization
+Systematic benchmark of **7 VLM architectures** for composed image retrieval on Fashion-IQ across three families: CLIP ViT-H-14 embedding fusion + FAISS, VLM reranking (Gemini 2.5 Flash, GPT-4o, Qwen2.5-VL-3B), and textual inversion. Best Avg R@10 = 0.330. Quantized Qwen2.5-VL-3B to 4-bit NF4 (bitsandbytes) for on-device reranking at ~2GB VRAM, reaching R@10 = 0.303 — competitive with GPT-4o at zero API cost. Pareto frontier maps a 230× latency spread against retrieval quality.
 
-**Tech Stack:** Next.js 15, React 19, TypeScript, Redux Toolkit, Node.js, Express, MongoDB Atlas  
-**Live Demo:** [Frontend on Vercel](https://kambaz-next-js-git-a5-chandan-gowda-k-ss-projects.vercel.app) | [Backend on Render](https://kambaz-node-server-app-irwy.onrender.com)
+**Tech Stack:** PyTorch, CLIP / open_clip, FAISS, bitsandbytes (4-bit NF4), Gemini API, GPT-4o, Qwen2.5-VL, Gradio, WandB
 
-### [Calendly Clone](https://github.com/virtual457/Calendly) | Java • Design Patterns • TDD
-Enterprise-grade calendar application implementing 6+ design patterns (Command, Factory, Adapter, Builder, Observer, Strategy) with strict SOLID principles adherence across 52 source files. Achieved 98% line coverage and 95% mutation coverage through comprehensive test-driven development (31 test classes). Features multi-interface support (GUI, Console, Headless), timezone handling, CSV import/export, and production-ready error handling with MVC architecture.
+### [Orion Platform — Kubernetes Operator](https://github.com/virtual457/Orion-platform) | Go • Kubernetes • CRDs
+Cloud-native PaaS with a custom Kubernetes operator in Go enabling single-command application deployment. Custom Resource Definitions, controller-runtime reconciliation loops, automated provisioning of PostgreSQL, Redis, MinIO. Environment-aware infrastructure selection (local containers vs cloud), health monitoring, leader election. Sub-second reconciliation supporting 10+ concurrent applications.
 
-**Tech Stack:** Java 11, Maven, JUnit 4, Design Patterns, MVC Architecture, PIT Mutation Testing
+**Tech Stack:** Go 1.21+, Kubernetes, Docker, Operator SDK, controller-runtime, CRDs, StatefulSets, Prometheus
 
-### [Maritime Logistics Platform](https://github.com/virtual457/Port-Management-System) | Django • MySQL • Algorithms
-Full-stack port management system implementing Dijkstra's pathfinding algorithm in SQL stored procedures for optimal route calculation. Built comprehensive role-based authentication (Admin/Shipper/Customer/Manager) with complex relational database schema featuring 15+ interconnected tables and 50+ stored procedures supporting 1000+ concurrent route calculations. Demonstrates advanced SQL optimization with Common Table Expressions, spatial data handling, and multi-tenant architecture.
+### [Tribunal — Bitcoin-Native AI Agent Marketplace](https://github.com/virtual457/Zoro) | Bitcoin Script • Next.js • MongoDB
+🏆 **MIT Bitcoin Hackathon: Freedom for All (2026)** — Community Prize winner.
+A trustless marketplace where AI agents sell services and buyers pay with Bitcoin. Real Bitcoin Script HTLCs (no Stripe, no escrow service), three-prong contracts (H0 seller bond, H1 buyer advance, H2 buyer remainder), reputation computed from on-chain HTLC outcomes (not platform-assigned), and disputes resolved by a staked federation jury via commit-reveal voting. Platform holds zero funds, takes zero fees.
 
-**Tech Stack:** Django 3.2+, MySQL, Python, JavaScript, Bootstrap, Advanced SQL (Stored Procedures, Triggers, CTEs, Spatial Data)
+**Tech Stack:** Bitcoin Core, bitcoinjs-lib, P2WSH, BIP-322, Next.js 16, React 19, MongoDB, Tailwind CSS
 
-## 📚 Education & Certifications
+## 📚 Education
 
-**MS in Computer Science** | Northeastern University, Boston, MA | Jan 2025 - May 2027  
-GPA: 3.89/4.0 | Focus: Distributed Systems, Machine Learning, Cloud Architecture
+**MS in Computer Science** | Northeastern University, Boston, MA | Jan 2025 – May 2027
+GPA: 3.95 / 4.0 — Coursework: Machine Learning, NLP, Deep Learning, Foundations of Generative AI, Algorithms, Database Management Systems, Web Development
 
-**BE in Computer Science** | Nitte Meenakshi Institute of Technology, Bengaluru | Aug 2016 - Aug 2020  
-CGPA: 8.76/10
+**BE in Computer Science** | Nitte Meenakshi Institute of Technology, Bengaluru | Aug 2016 – Aug 2020
+CGPA: 8.76 / 10
 
-**Certifications:**
-- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/29ec1719-01bc-42df-850d-f2a7a3e6bca6/linked_in_profile) (Nov 2023 - Nov 2026)
-- [Automation Anywhere Certified Advanced RPA Professional](https://certificates.automationanywhere.com/62bc641a-e466-4ea9-8196-228e8d3abe44#acc.Hw1mQtTL) (Mar 2021)
-- Infosys Certified Python Programmer (Dec 2020)
+## 🏆 Achievements
 
-**Publications:**
-- [IEEE: "Doctor-Patient Assistance System using Artificial Intelligence"](https://ieeexplore.ieee.org/document/9532856) (2020)
-
-## 🌟 Recent Activity
-
-- 🤖 Building multi-agent RAG systems with LangChain and ChromaDB
-- 🔧 Developing production-grade Kubernetes operators with Go
-- 🧠 Training deep reinforcement learning agents with PyTorch
-- ⚛️ Creating full-stack applications with Next.js 15 and React 19
-- ☕ Architecting enterprise Java systems with comprehensive test coverage
-- 🚢 Implementing graph algorithms in SQL for optimization problems
+- 🥇 **[MIT Bitcoin Hackathon: Freedom for All (2026)](https://devpost.com/software/tribunal-r63d58)** — Community Prize for Tribunal (Bitcoin-native AI agent marketplace).
+- ☁️ **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/29ec1719-01bc-42df-850d-f2a7a3e6bca6/linked_in_profile)** (Nov 2023 – Nov 2026).
 
 ## 📫 Let's Connect
 
 - **Email:** chandan.keelara@gmail.com
 - **LinkedIn:** [linkedin.com/in/chandan-gowda-k-s-765194186](https://www.linkedin.com/in/chandan-gowda-k-s-765194186/)
 - **Portfolio:** [virtual457.github.io](https://virtual457.github.io/)
-- **GitHub:** You're already here! Feel free to explore my repositories
-
-## 💡 What I'm Currently Learning
-
-- Multi-agent AI systems and LLM engineering
-- Advanced distributed systems patterns and consensus algorithms
-- Deep learning model optimization and deployment at scale
-- Cloud-native architecture and Kubernetes ecosystem
-- Modern full-stack development with Next.js and React 19
-
----
-

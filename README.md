@@ -7,5 +7,3 @@ I build production systems and obsess over the deep, weird parts. Four years of 
 🛠️ &nbsp; **Python** • **C++** • **Go** • **TypeScript** • **PyTorch** • **CUDA** • **LangChain** • **AWS** • **Kubernetes**
 
 📫 &nbsp; [LinkedIn](https://www.linkedin.com/in/chandan-gowda-k-s-765194186/) &nbsp; · &nbsp; [Portfolio](https://virtual457.github.io/) &nbsp; · &nbsp; chandan.keelara@gmail.com
-
-> Pinned projects below ↓
